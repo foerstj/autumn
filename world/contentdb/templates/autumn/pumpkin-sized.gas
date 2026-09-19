@@ -1,0 +1,45 @@
+[t:template,n:pumpkin_noface_s] { specializes = pumpkin_noface_s_base; }
+[t:template,n:pumpkin_noface_s_base]
+{
+    specializes = pumpkin_noface_base;
+    [aspect]
+    {
+        scale_base = 0.79;  // 1/2 volume
+    }
+}
+[t:template,n:pumpkin_noface_m] { specializes = pumpkin_noface_m_base; }
+[t:template,n:pumpkin_noface_m_base]
+{
+    specializes = pumpkin_noface_base;
+    [aspect]
+    {
+        scale_base = 1.0;  // 1x volume
+    }
+}
+[t:template,n:pumpkin_noface_l] { specializes = pumpkin_noface_l_base; }
+[t:template,n:pumpkin_noface_l_base]
+{
+    specializes = pumpkin_noface_base;
+    [aspect]
+    {
+        scale_base = 1.26;  // 2x volume
+    }
+}
+[t:template,n:pumpkin_noface_xl] { specializes = pumpkin_noface_xl_base; }
+[t:template,n:pumpkin_noface_xl_base]
+{
+    specializes = pumpkin_noface_base;
+    [aspect]
+    {
+        scale_base = 1.59;  // 4x volume
+    }
+}
+[t:template,n:pumpkin_noface_xxl] { specializes = pumpkin_noface_xxl_base; }
+[t:template,n:pumpkin_noface_xxl_base]
+{
+    specializes = pumpkin_noface_base;
+    [aspect]
+    {
+        scale_base = 2.0;  // 8x volume
+    }
+}
