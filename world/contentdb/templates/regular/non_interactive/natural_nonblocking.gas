@@ -322,18 +322,9 @@
 		model = m_i_des_brush;
 	}
 }
-[t:template,n:cabbage_glb_01]
-{
-	category_name = "foliage";
-	doc = "grs_cabbage";
-	specializes = non_interactive_nonblocking;
-	[aspect]
-	{
-		lodfi_lower = .55;
-		lodfi_upper = .85;
-		model = m_i_glb_cabbage;
-	}
-}
+
+// EDITED: split out crops
+
 [t:template,n:cactus_des_01]
 {
 	category_name = "bad";
@@ -2578,22 +2569,9 @@
 		model = m_i_glb_pinecone-02;
 	}
 }
-[t:template,n:plant_glb_squash]
-{
-	category_name = "foliage";
-	doc = "grs_squash";
-	specializes = non_interactive_nonblocking;
-	[aspect]
-	{
-		lodfi_lower = 0.8;
-		lodfi_upper = 1.0;
-		model = m_i_glb_plant-squash-01;
-		[textures]
-		{
-			0 = b_i_glb_plant-squash;
-		}
-	}
-}
+
+// EDITED: split out crops
+
 [t:template,n:reed_des_01]
 {
 	category_name = "foliage";
