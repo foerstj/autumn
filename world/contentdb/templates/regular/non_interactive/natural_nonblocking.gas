@@ -262,54 +262,9 @@
 		model = m_i_swp_branch-10;
 	}
 }
-[t:template,n:brush_des_dry_01]
-{
-	category_name = "foliage";
-	doc = "des_scraggly_dead";
-	specializes = non_interactive_nonblocking;
-	[aspect]
-	{
-		lodfi_lower = 0.05;
-		lodfi_upper = 0.75;
-		model = m_i_glb_brush-01;
-		[textures]
-		{
-			0 = b_i_des_dry-brush-01;
-		}
-	}
-}
-[t:template,n:brush_des_dry_02]
-{
-	category_name = "foliage";
-	doc = "des_scraggly_leafy";
-	specializes = non_interactive_nonblocking;
-	[aspect]
-	{
-		lodfi_lower = 0.05;
-		lodfi_upper = 0.75;
-		model = m_i_glb_brush-01;
-		[textures]
-		{
-			0 = b_i_des_dry-brush-02;
-		}
-	}
-}
-[t:template,n:brush_des_dry_03]
-{
-	category_name = "foliage";
-	doc = "des_scraggly_full";
-	specializes = non_interactive_nonblocking;
-	[aspect]
-	{
-		lodfi_lower = 0.05;
-		lodfi_upper = 0.75;
-		model = m_i_glb_brush-01;
-		[textures]
-		{
-			0 = b_i_des_dry-brush-03;
-		}
-	}
-}
+
+// EDITED: split out foliage-halloween
+
 [t:template,n:brush_des_pile]
 {
 	category_name = "misc";
@@ -434,18 +389,9 @@
 		model = m_i_des_cactus-sah-05;
 	}
 }
-[t:template,n:cactus_des_star_01]
-{
-	category_name = "foliage";
-	doc = "des_cactus_star_yllw";
-	specializes = non_interactive_nonblocking;
-	[aspect]
-	{
-		lodfi_lower = 0.4;
-		lodfi_upper = 0.65;
-		model = m_i_des_cactus-star-01;
-	}
-}
+
+// EDITED: split out foliage-halloween
+
 [t:template,n:cattail_grs_01]
 {
 	category_name = "foliage";
@@ -1572,18 +1518,9 @@
 		}
 	}
 }
-[t:template,n:grass_glb_beach_01]
-{
-	category_name = "foliage";
-	doc = "beach_grass_sm";
-	specializes = non_interactive_nonblocking;
-	[aspect]
-	{
-		lodfi_lower = 0.15;
-		lodfi_upper = 0.6;
-		model = m_i_glb_grass-beach-01;
-	}
-}
+
+// EDITED: split out foliage-halloween
+
 [t:template,n:grass_glb_beach_02]
 {
 	category_name = "foliage";
