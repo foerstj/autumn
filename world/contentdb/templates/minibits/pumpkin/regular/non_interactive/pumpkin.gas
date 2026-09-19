@@ -1,0 +1,47 @@
+[t:template,n:base_pumpkin]
+{
+	specializes = non_interactive_nonblocking;
+
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.15;
+		model = m_i_glb_pumpkin;
+		[textures]
+		{
+			0 = b_i_glb_pumpkin;
+		}
+	}
+}
+
+[t:template,n:pumpkin] { specializes = pumpkin_base; }
+[t:template,n:pumpkin_base]
+{
+	specializes = base_pumpkin;
+
+	category_name = "outdoor";
+	doc = "pumpkin";
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_i_glb_pumpkin;
+		}
+	}
+}
+
+[t:template,n:pumpkin_noface] { specializes = pumpkin_noface_base; }
+[t:template,n:pumpkin_noface_base]
+{
+	specializes = base_pumpkin;
+
+	category_name = "foliage";  // like cabbage & squash
+	doc = "pumpkin_noface";
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_i_glb_pumpkin-noface;
+		}
+	}
+}
