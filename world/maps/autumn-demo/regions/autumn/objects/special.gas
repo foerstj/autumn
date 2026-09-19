@@ -1,4 +1,4 @@
-[t:trigger_change_mood_box,n:0x00200022]
+[t:trigger_change_mood_box,n:0x0020005a]
 {
 	[common]
 	{
@@ -23,6 +23,6 @@
 	}
 	[placement]
 	{
-	  p position = 1.40533,0,2.36384,0x54cfe197;
+	  p position = 2.75093,0,3.14373,0x1e41bb35;
 	}
 }
