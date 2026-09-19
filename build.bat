@@ -16,6 +16,7 @@ set author=Johannes Förstner
 :: Compile main resource file
 rmdir /S /Q "%tmp%\Bits"
 robocopy "%bits%\art" "%tmp%\Bits\art" /E /xf .gitignore /xf *.psd /xd new
+robocopy "%bits%\world\contentdb\templates" "%tmp%\Bits\world\contentdb\templates" /E
 robocopy "%bits%\world\global\moods" "%tmp%\Bits\world\global\moods" /E
 "%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\DSLOA\%mod_cs%.dsres" -copyright "%copyright%" -title "%mod_cs%" -author "%author%"
 if %errorlevel% neq 0 pause
